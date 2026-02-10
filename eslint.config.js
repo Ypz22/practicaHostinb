@@ -1,15 +1,15 @@
 export default [
     {
-        files: ["**/*.js"],
+        files: ['**/*.js'],
         languageOptions: {
             parserOptions: {
-                sourceType: "module",
-                ecmaVersion: "latest",
+                sourceType: 'module',
+                ecmaVersion: 'latest',
             },
         },
         rules: {
-            "semi": ["error", "always"],
-            "quotes": ["error", "single"],
+            'semi': ['error', 'always'],
+            'quotes': ['error', 'single'],
         },
     }
-]
+];
