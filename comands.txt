@@ -1,0 +1,26 @@
+k6 run carga-y-rendimiento.js
+
+npm in
+stall --save-dave jest eslint
+
+npm in
+stall express
+
+npm run lint
+
+npm run lint -- --fix
+
+npm test
+
+npm test -- --coverage
+
+npm init -y
+
+npm install lint
+
+git init
+git add .
+git commit -m "pruebas ci/cd"
+git branch -M main
+git remote add origin https://github.com/Ypz22/PracticaPrueba.git
+git push -u origin main
